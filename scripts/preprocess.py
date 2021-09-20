@@ -13,9 +13,9 @@ import os
 from pathlib import Path
 
 
-path_iclr_train = r'./0517_split_2/train/' # use your path
-path_iclr_test = r'./0517_split_2/test/' # use your path
-path_iclr_dev = r'./0517_split_2/dev/' # use your path
+path_iclr_train = r'../0517_split_2/train/' # use your path
+path_iclr_test = r'../0517_split_2/test/' # use your path
+path_iclr_dev = r'../0517_split_2/dev/' # use your path
 
 label_name_classification = "coarse"
 
