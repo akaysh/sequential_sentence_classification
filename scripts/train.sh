@@ -12,8 +12,8 @@ LABEL_KEY=coarse
 
 # path to dataset files
 export TRAIN_PATH=data/Discourse/train_$LABEL_KEY.jsonl
-export DEV_PATH=data/CSAbstruct/dev$LABEL_KEY.jsonl
-export TEST_PATH=data/CSAbstruct/test$LABEL_KEY.jsonl
+export DEV_PATH=data/Discourse/dev$LABEL_KEY.jsonl
+export TEST_PATH=data/Discourse/test$LABEL_KEY.jsonl
 
 # model
 export USE_SEP=true  # true for our model. false for baseline
@@ -23,8 +23,8 @@ export WITH_CRF=false  # CRF only works for the baseline
 export cuda_device=0
 export BATCH_SIZE=4
 export LR=5e-5
-export TRAINING_DATA_INSTANCES=1668
-export NUM_EPOCHS=2
+export TRAINING_DATA_INSTANCES=209
+export NUM_EPOCHS=20
 
 # limit number of sentneces per examples, and number of words per sentence. This is dataset dependant
 export MAX_SENT_PER_EXAMPLE=20
